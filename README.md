@@ -15,13 +15,17 @@ The Anidex Image Classifier project aims to classify images of various animal sp
 ## Libraries Used
 
 The model is implemented using the following Python libraries:
-- TensorFlow
+- TensorFlow: An open-source machine learning framework developed by Google that is used for building and training neural networks. Used to provide core functionalities for defining and training the Convolutional Neural Network model used in the project.
+  
 ![Tensorflow](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/88315fbd-e7c7-42af-89d6-ce829dcdf616)
-- Keras
+- Keras: An open-source neural network library written in Python, designed to enable fast experimentation with deep neural networks. Used as a high-level API running on top of TensorFlow, simplifying the process of building and training the deep learning model.
+  
 ![Keras](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/4f3fd801-eeef-4669-b8ff-2e0d59044279)
-- NumPy
+- NumPy: A fundamental package for scientific computing in Python, providing support for arrays, matrices, and many mathematical functions. Used in the project for handling image data and performing various numerical operations required during data preprocessing and augmentation.
+  
 ![Numpy](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/79cbee0c-a523-4474-b84a-f8fa41061de5)
-- Matplotlib
+- Matplotlib: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It has been used in the project to visualize the training process, such as plotting training and validation accuracy, and displaying images during prediction.
+
 ![matplotlib](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/6d0553df-b48e-4889-b498-fb6fcff2b06b)
 
 ## Features
@@ -44,10 +48,10 @@ pip install numpy matplotlib tensorflow
 4. Run `predict.py` to perform predictions on unseen data.
 
 To modify this project:
-1. Clone this repository: 
-'''shell
+1. Clone this repository:
+```shell
 git clone "https://github.com/ISHOOO/Anidex-Image-Classifier.git"
-'''
+```
 2. Ensure Python dependencies are installed
 ```shell 
 pip install numpy matplotlib tensorflow
