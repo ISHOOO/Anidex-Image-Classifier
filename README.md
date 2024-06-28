@@ -66,11 +66,11 @@ pip install numpy matplotlib tensorflow
 ## Visualizations
 
 ### Training and Validation Accuracy Comparison
-    ![Training vs Validation Accuracy](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/affaa183-71e6-4d14-a221-880c472b66eb)
+  ![Training vs Validation Accuracy](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/affaa183-71e6-4d14-a221-880c472b66eb)
 
 ### Performing Prediction on Unseen Data
-    ![Prediction Example 1](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/17728bee-7c3d-449a-9bdf-44e5f120c43d)
-    ![Prediction Example 2](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/ceae5bc5-f85e-49d6-b72b-7f7c0f2151f3)
+  ![Prediction Example 1](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/17728bee-7c3d-449a-9bdf-44e5f120c43d)
+  ![Prediction Example 2](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/ceae5bc5-f85e-49d6-b72b-7f7c0f2151f3)
 
 
 ## Files Included
