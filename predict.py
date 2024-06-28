@@ -11,7 +11,7 @@ img_arr = utils.array_to_img(image)
 img_bat=tf.expand_dims(img_arr,0)
 predict = model.predict(img_bat, verbose=0)
 score = tf.nn.softmax(predict)
-plt.imshow(mpimg.imread('unseen test data\\antelope.png'))
+plt.imshow(mpimg.imread(path_to_img))
 plt.axis('off')
 plt.text(0.5, -0.1, f"Prediction: {data_cat[np.argmax(score)]}", size=12, ha='center', transform=plt.gca().transAxes) # caption to the image
 plt.show()

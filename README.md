@@ -43,6 +43,16 @@ pip install numpy matplotlib tensorflow
 3. Update the variable `path_to_img` in `predict.py` with the relative path of the image you want to predict.
 4. Run `predict.py` to perform predictions on unseen data.
 
+To modify this project:
+1. Clone this repository: 
+'''shell
+git clone "https://github.com/ISHOOO/Anidex-Image-Classifier.git"
+'''
+2. Ensure Python dependencies are installed
+```shell 
+pip install numpy matplotlib tensorflow
+```
+
 
 ## Visualizations
 
