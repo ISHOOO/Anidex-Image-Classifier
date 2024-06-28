@@ -11,22 +11,27 @@ The Anidex Image Classifier project aims to classify images of various animal sp
 - **Inspiration**: Inspired by the concept of Pokédex from Pokémon.
 - **Validation Accuracy**: The model achieves a validation accuracy of 37.04%.
 - **Animal Classes**: It can predict among 90 different animal species, including antelope, badger, bat, bear, and many others.
-
+- **Architecture**
+    - Convolutional layers (relu activation)
+    - 2D-Maxpooling layers
+    - Dropout layers (Dropout rate: 0.2)
+    - Flattening layer
+    - Dense layers for output
 ## Libraries Used
 
 The model is implemented using the following Python libraries:
-- TensorFlow: An open-source machine learning framework developed by Google that is used for building and training neural networks. Used to provide core functionalities for defining and training the Convolutional Neural Network model used in the project.
+- [TensorFlow](https://tensorflow.org/): An open-source machine learning framework developed by Google that is used for building and training neural networks. Used to provide core functionalities for defining and training the Convolutional Neural Network model used in the project.
   
-![Tensorflow](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/88315fbd-e7c7-42af-89d6-ce829dcdf616)
-- Keras: An open-source neural network library written in Python, designed to enable fast experimentation with deep neural networks. Used as a high-level API running on top of TensorFlow, simplifying the process of building and training the deep learning model.
+      ![Tensorflow](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/88315fbd-e7c7-42af-89d6-ce829dcdf616)
+- [Keras](https://keras.io/): An open-source neural network library written in Python, designed to enable fast experimentation with deep neural networks. Used as a high-level API running on top of TensorFlow, simplifying the process of building and training the deep learning model.
   
-![Keras](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/4f3fd801-eeef-4669-b8ff-2e0d59044279)
-- NumPy: A fundamental package for scientific computing in Python, providing support for arrays, matrices, and many mathematical functions. Used in the project for handling image data and performing various numerical operations required during data preprocessing and augmentation.
+      ![Keras](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/4f3fd801-eeef-4669-b8ff-2e0d59044279)
+- [NumPy](https://numpy.org): A fundamental package for scientific computing in Python, providing support for arrays, matrices, and many mathematical functions. Used in the project for handling image data and performing various numerical operations required during data preprocessing and augmentation.
   
-![Numpy](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/79cbee0c-a523-4474-b84a-f8fa41061de5)
-- Matplotlib: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It has been used in the project to visualize the training process, such as plotting training and validation accuracy, and displaying images during prediction.
+      ![Numpy](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/79cbee0c-a523-4474-b84a-f8fa41061de5)
+- [Matplotlib](https://matplotlib.org/): Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It has been used in the project to visualize the training process, such as plotting training and validation accuracy, and displaying images during prediction.
 
-![matplotlib](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/6d0553df-b48e-4889-b498-fb6fcff2b06b)
+      ![matplotlib](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/6d0553df-b48e-4889-b498-fb6fcff2b06b)
 
 ## Features
 
@@ -61,19 +66,19 @@ pip install numpy matplotlib tensorflow
 ## Visualizations
 
 ### Training and Validation Accuracy Comparison
-![Training vs Validation Accuracy](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/affaa183-71e6-4d14-a221-880c472b66eb)
+    ![Training vs Validation Accuracy](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/affaa183-71e6-4d14-a221-880c472b66eb)
 
 ### Performing Prediction on Unseen Data
-![Prediction Example 1](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/17728bee-7c3d-449a-9bdf-44e5f120c43d)
-![Prediction Example 2](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/ceae5bc5-f85e-49d6-b72b-7f7c0f2151f3)
+    ![Prediction Example 1](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/17728bee-7c3d-449a-9bdf-44e5f120c43d)
+    ![Prediction Example 2](https://github.com/ISHOOO/Animal-Image-Classifier/assets/132544766/ceae5bc5-f85e-49d6-b72b-7f7c0f2151f3)
 
 
 ## Files Included
-- `data_split.py`: Python script to split the 'animals data' directory into 'train' and 'valid' directories.
+- `data_split.py`: Python script to split the 'animals data' directory into 'train' and 'valid' directories by 75% and 25% respectively.
 - `anidex.keras`: Pre-trained model weights file.
 - `predict.py`: Python script to perform predictions on new images.
-- `unseen test data`: unseen images taken from unknown source to test the generalizability of the model
-
+- `unseen test data`: unseen images taken from an external source to test the generalizability of the model
+- `Animal_recognition.ipynb`: Jupyter notebook containing script for model training
 
 ## Dataset
 
