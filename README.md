@@ -50,9 +50,12 @@ pip install numpy matplotlib tensorflow
 ```
 2. Download `anidex.keras` and `predict.py` from the repository.
 3. Update the variable `path_to_img` in `predict.py` with the relative path of the image you want to predict.
-4. Run `predict.py` to perform predictions on unseen data.<br>
- __OR__<br>
+4. Run `predict.py` to perform predictions on unseen data.
+
+__OR__<br>
+
 You can visit the following website:<br>
+
 [Anidex](https://goofyishu-anidex.hf.space/)
 
 To modify this project:
