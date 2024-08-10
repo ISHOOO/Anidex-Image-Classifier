@@ -51,6 +51,9 @@ pip install numpy matplotlib tensorflow
 2. Download `anidex.keras` and `predict.py` from the repository.
 3. Update the variable `path_to_img` in `predict.py` with the relative path of the image you want to predict.
 4. Run `predict.py` to perform predictions on unseen data.
+ __OR__
+You can visit the following website:<br>
+[Anidex](https://goofyishu-anidex.hf.space/)
 
 To modify this project:
 1. Clone this repository:
@@ -86,96 +89,96 @@ The dataset used for training and validation can be found on Kaggle:
 - [Animal Image Dataset - 90 Different Animals](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals)
 
 ## List of animals which can be predicted by the model:
-[antelope, 
-badger, 
-bat, 
-bear, 
-bee, 
-beetle, 
-bison, 
-boar, 
-butterfly, 
-cat, 
-caterpillar, 
-chimpanzee, 
-cockroach, 
-cow, 
-coyote, 
-crab, 
-crow, 
-deer, 
-dog, 
-dolphin, 
-donkey, 
-dragonfly, 
-duck, 
-eagle, 
-elephant, 
-flamingo, 
-fly, 
-fox, 
-goat, 
-goldfish, 
-goose, 
-gorilla, 
-grasshopper, 
-hamster, 
-hare, 
-hedgehog, 
-hippopotamus, 
-hornbill, 
-horse, 
-hummingbird, 
-hyena, 
-jellyfish, 
-kangaroo, 
-koala, 
-ladybugs, 
-leopard, 
-lion, 
-lizard, 
-lobster, 
-mosquito, 
-moth, 
-mouse, 
-octopus, 
-okapi, 
-orangutan, 
-otter, 
-owl, 
-ox, 
-oyster, 
-panda, 
-parrot, 
-pelecaniformes, 
-penguin, 
-pig, 
-pigeon, 
-porcupine, 
-possum, 
-raccoon, 
-rat, 
-reindeer, 
-rhinoceros, 
-sandpiper, 
-seahorse, 
-seal, 
-shark, 
-sheep, 
-snake, 
-sparrow, 
-squid, 
-squirrel, 
-starfish, 
-swan, 
-tiger, 
-turkey, 
-turtle, 
-whale, 
-wolf, 
-wombat, 
-woodpecker, 
-zebra]
+1. antelope
+2. badger
+3. bat
+4. bear
+5. bee
+6. beetle
+7. bison
+8. boar
+9. butterfly
+10. cat
+11. caterpillar
+12. chimpanzee
+13. cockroach
+14. cow
+15. coyote
+16. crab
+17. crow
+18. deer
+19. dog
+20. dolphin
+21. donkey
+22. dragonfly
+23. duck
+24. eagle
+25. elephant
+26. flamingo
+27. fly
+28. fox
+29. goat
+30. goldfish
+31. goose
+32. gorilla
+33. grasshopper
+34. hamster
+35. hare
+36. hedgehog
+37. hippopotamus
+38. hornbill
+39. horse
+40. hummingbird
+41. hyena
+42. jellyfish
+43. kangaroo
+44. koala
+45. ladybugs
+46. leopard
+47. lion
+48. lizard
+49. lobster
+50. mosquito
+51. moth
+52. mouse
+53. octopus
+54. okapi
+55. orangutan
+56. otter
+57. owl
+58. ox
+59. oyster
+60. panda
+61. parrot
+62. pelecaniformes
+63. penguin
+64. pig
+65. pigeon
+66. porcupine
+67. possum
+68. raccoon
+69. rat
+70. reindeer
+71. rhinoceros
+72. sandpiper
+73. seahorse
+74. seal
+75. shark
+76. sheep
+77. snake
+78. sparrow 
+79. squid
+80. squirrel
+81. starfish 
+82. swan 
+83. tiger 
+84. turkey 
+85. turtle 
+86. whale 
+87. wolf
+88. wombat
+89. woodpecker
+90. zebra
 
 
 Feel free to explore and contribute to the Anidex Image Classifier project!
