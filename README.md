@@ -6,6 +6,10 @@ Anidex Image Classifier is a Convolutional Neural Network model built using Tens
 
 The Anidex Image Classifier project aims to classify images of various animal species using deep learning techniques. Inspired by the concept of the Pokédex from Pokémon, this model can predict the species of an animal from an input image.
 
+## Demonstration link:
+
+[Anidex - hugging face spaces](https://huggingface.co/spaces/goofyishu/Anidex)
+
 ## Model Details
 
 - **Inspiration**: Inspired by the concept of Pokédex from Pokémon.
@@ -17,6 +21,7 @@ The Anidex Image Classifier project aims to classify images of various animal sp
     - Dropout layers (Dropout rate: 0.2)
     - Flattening layer
     - Dense layers for output
+      
 ## Libraries Used
 
 The model is implemented using the following Python libraries:
@@ -42,21 +47,6 @@ The model is implemented using the following Python libraries:
 
 
 ## Usage
-
-To predict on an image using the Anidex Image Classifier:
-1. Ensure Python dependencies are installed
-```shell 
-pip install numpy matplotlib tensorflow
-```
-2. Download `anidex.keras` and `predict.py` from the repository.
-3. Update the variable `path_to_img` in `predict.py` with the relative path of the image you want to predict.
-4. Run `predict.py` to perform predictions on unseen data.
-
-__OR__<br>
-
-You can visit the following website:<br>
-
-[Anidex](https://goofyishu-anidex.hf.space/)
 
 To modify this project:
 1. Clone this repository:
