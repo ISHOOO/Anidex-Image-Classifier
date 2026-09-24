@@ -1,0 +1,3 @@
+- Implement transfer learning
+- Add a way to treat use cases where the user inputs a photo of an animal not in the dataset
+- Research and implement ways to improve the validation accuracy of the dataset
